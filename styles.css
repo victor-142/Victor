@@ -1,0 +1,116 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f8f9fa;
+
+}
+
+header {
+
+    background-color: #007bff;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+section {
+
+    margin: 20px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 8px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left
+
+}
+
+h1, h2 {
+
+    color: #343a40;
+
+}
+
+ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+/* Centraliza a seção do formulário */
+section {
+    width: 80%; /* Define uma largura responsiva */
+    max-width: 600px; /* Evita que fique muito grande em telas largas */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajusta o layout do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os elementos */
+}
+
+/* Ajusta os campos do formulário */
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%; /* Faz os campos ocuparem toda a largura da seção */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botão estilizado */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
